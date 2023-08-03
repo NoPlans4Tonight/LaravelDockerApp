@@ -15,14 +15,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('welcome');
-    // $data = [
-    //     "title" => "Home Page",
-    //     "Body" => "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque accusantium magnam, rerum et ullam assumenda eveniet fugit nulla quasi sapiente perferendis nihil repudiandae ratione totam incidunt esse culpa cumque dignissimos!"
-    // ];
-
-    // $response = [
-    //     "status" => 1,
-    //     "data" => $data,
-    // ];
-    // return response()->json($response);
 });
